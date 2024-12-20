@@ -29,7 +29,7 @@ margin: 0px;
     font-size: 25px;
     background-color: transparent;
     
-    margin-left: 350px;
+    /* margin-left: 350px; */
     margin-top: 1px;
 
    
@@ -160,7 +160,6 @@ margin-left: 15%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(pexels-pixabay-414660.jpg);
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
    
@@ -262,12 +261,12 @@ flex-direction: column;
     }
 
 .active1 .five p{
-    margin-top: 50px; 
+    /* margin-top: 50px;  */
     padding-top: 20px;
   
 }
 .active1 .six p{
-     margin-top: 50px; 
+     /* margin-top: 50px;  */
     padding-top: 20px;
   
 }
