@@ -21,11 +21,13 @@ margin: 0px;
     width: 100%;
     height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     position: absolute;
     top: 50px;
-    color: yellowgreen;
+    
+   
+    color: black;
     font-size: 25px;
     background-color: transparent;
     
@@ -51,12 +53,13 @@ margin: 0px;
     padding: 100px;
     list-style: none;
     gap:20px;
-    color: aliceblue;
+    color: black;
 
     /* position: absolute;  */
- /* margin: left;  */
+  /* margin-left: 30%;    */
 
   }
+
   #toppart nav ul li a{
     text-decoration: none;
     color:chocolate;
@@ -66,6 +69,7 @@ margin: 0px;
     align-items: center;
     gap: 5px;
     position: absolute; 
+    
  }
  #toppart nav ul li a:hover{
     color:green
@@ -87,7 +91,7 @@ yellow
 
   width: 100%;
   height:100vh;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   line-height: 75px;
   padding: 0px ;
   background-image: url(valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg);
@@ -113,7 +117,7 @@ margin-left: 15%;
 }
 #home div h1{
     font-size: 50px;
-    color:rgb(215, 246, 250);
+    color:mint greenyellow;
 }
 #home div .btn1{
    
@@ -127,8 +131,9 @@ margin-left: 15%;
     width: 100%;
     align-items: center;
     height: 100vh;
-    border: 2px solid rgb(196, 234, 235);
+    /* border: 2px solid rgb(196, 234, 235); */
     justify-content: space-evenly;
+    background-color: lightgray;
 
 }
  .aboutdiv video{
@@ -149,7 +154,7 @@ margin-left: 15%;
  #about .aboutdiv p{
     font-size: x-large;
     padding-left: 10%;
-    color:whitesmoke;
+    color:black;
     
 
 } 
@@ -162,6 +167,7 @@ margin-left: 15%;
     flex-direction: column;
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
+    background-color: lightyellow;
    
     
 
@@ -194,11 +200,11 @@ margin-left: 15%;
 #active{
     width: 100%;
     height: 100vh;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgb(246, 204, 218);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     line-height: 20px;
@@ -213,12 +219,13 @@ margin-left: 15%;
     justify-content: space-between;
     gap: 20px;
     justify-content: center;
+   
 } 
 
  .active1 div{
     width: 200px;
     height: 200px;
-    border: 1px solid green;
+    border: 1px solid green; 
     border-radius: 30px;
     display: flex;
     align-items: center; 
@@ -271,7 +278,7 @@ flex-direction: column;
   
 }
 
- 
+ /* ******************************************************** */
 
 footer {
   background-color: #333;
