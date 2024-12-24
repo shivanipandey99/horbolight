@@ -25,12 +25,9 @@ margin: 0px;
     align-items: center;
     position: absolute;
     top: 50px;
-    
-   
-    color: black;
+    color:whitesmoke;
     font-size: 25px;
     background-color: transparent;
-    
     /* margin-left: 350px; */
     margin-top: 1px;
 
@@ -53,7 +50,7 @@ margin: 0px;
     padding: 100px;
     list-style: none;
     gap:20px;
-    color: black;
+    color: white;
 
     /* position: absolute;  */
   /* margin-left: 30%;    */
@@ -93,7 +90,7 @@ yellow
   height:100vh;
   /* border: 3px solid black; */
   line-height: 75px;
-  padding: 0px ;
+  padding-left: 150ox;
   background-image: url(valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 140% ;
@@ -102,6 +99,7 @@ yellow
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: whitesmoke;
   /* position: absolute; */
   
 
@@ -109,7 +107,8 @@ yellow
  #home div{
 width: 50%;
 /* border: 1px solid black;*/
-margin-left: 15%;
+margin-right:40%;
+margin-bottom: 20%;
 /*line-height:50px;*/
  }
 #home div h1 span{
@@ -364,6 +363,14 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  #tophead div{
+    display: none;
+  }
+
+  #navbar nav ul{
+    display: none;
+  }
   .footer-container {
     flex-direction: column;
     align-items: center;

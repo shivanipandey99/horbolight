@@ -112,6 +112,13 @@
        font-size: 18px;
        
      } 
+
+     #mono input{
+      outline: none;
+      padding: 4px;
+      border-radius: 2px;
+      border: none;
+     }
      #mono2 div  button{
       width: 20%;
     height: 40px;
