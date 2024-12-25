@@ -4,135 +4,93 @@ margin: 0px;
     box-sizing:border-box;
     text-decoration: none;
 }
- #tophead{
-     width: 100%;
-     height:  90px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     background-color: transparent; 
-     border-radius: 50px;
-     position: absolute;
-    color: azure;
-    padding-bottom: 15px;
- }
-
- #navbar{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: absolute;
-    top: 50px;
-    color:whitesmoke;
-    font-size: 25px;
-    background-color: transparent;
-    /* margin-left: 350px; */
-    margin-top: 1px;
-
-   
- }
- #navbar img{
-    
-    width: 10px;
-    height: 50vh;
-    
- }
-
- 
-  #navbar nav ul{
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    padding: 100px;
-    list-style: none;
-    gap:20px;
-    color: white;
-
-    /* position: absolute;  */
-  /* margin-left: 30%;    */
-
-  }
-
-  #toppart nav ul li a{
-    text-decoration: none;
-    color:chocolate;
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    position: absolute; 
-    
- }
- #toppart nav ul li a:hover{
-    color:green
-yellow
-    
-    
- }
-  
- #toppart button{
-  padding:10px ;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius:50px; ;
-  color: black;
-
- } 
- #home{
-
-  width: 100%;
-  height:100vh;
-  /* border: 3px solid black; */
-  line-height: 75px;
-  padding-left: 150ox;
-  background-image: url(valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: 140% ;
-  background-position:center;
+.navbar{
+  background: burlywood; 
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navdiv{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: whitesmoke;
-  /* position: absolute; */
-  
+  justify-content: space-between;
+}
 
- }
- #home div{
-width: 50%;
-/* border: 1px solid black;*/
-margin-right:40%;
-margin-bottom: 20%;
-/*line-height:50px;*/
- }
+.logo a{
+  font-size: 35px;
+  font-weight: 600;
+  color:black;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+
+}
+.navbar div a:hover{
+  color: rgb(241, 21, 21);
+}
+
+.navbar div ul li a:hover{
+    color: red;
+}
+.navbar div nav ul button a:hover{
+  color: maroon;
+}
+.menu-icon{
+  padding-left: 30%;
+}
+.menu-icon{
+  display: none;
+}
+.menu-checkbox{
+  display: none;
+}
+/* navbar ends here***************** */
+#home{
+  width: 100%;
+  height: 100vh;
+  background-image: url(valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center; 
+}
+#home div{
+  width: 50%;
+  padding-left: 35%;
+  font-size:30px;
+  color:yellow;
+ 
+}
 #home div h1 span{
-    color: yellow;
+  color:yellow;
 }
 #home div h1{
-    font-size: 50px;
-    color:mint greenyellow;
+  color:yellow;
 }
-#home div .btn1{
-   
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
+div button{
+  width: 50%;
+  height: 30px;
+  color: black;
+  background-color:#ffcc00;
+
 }
+
+/* ***************************************** */
 #about{
     display: flex;
     width: 100%;
     align-items: center;
     height: 100vh;
-    /* border: 2px solid rgb(196, 234, 235); */
+    background-color: mistyrose;
+    /* border: 2px solid rgb(19, 215, 222); */
     justify-content: space-evenly;
-    background-color: lightgray;
 
 }
  .aboutdiv video{
@@ -153,7 +111,7 @@ margin-bottom: 20%;
  #about .aboutdiv p{
     font-size: x-large;
     padding-left: 10%;
-    color:black;
+    color:pink;
     
 
 } 
@@ -164,10 +122,10 @@ margin-bottom: 20%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(pexels-pixabay-414660.jpg);
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightyellow;
-   
+   background-color: bisque;
     
 
 }
@@ -195,6 +153,10 @@ margin-bottom: 20%;
     gap: 1px;
     margin: 10px;
 }
+
+  
+ 
+
 /* ******************************** */
 #active{
     width: 100%;
@@ -362,14 +324,8 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-
-  #tophead div{
-    display: none;
-  }
-
-  #navbar nav ul{
-    display: none;
+/* @media (max-width: 450px) {
+  
   }
   .footer-container {
     flex-direction: column;
@@ -383,5 +339,5 @@ footer {
 
   .footer-bottom {
     font-size: 12px;
-  }
-}
+  } */
+

@@ -5,59 +5,82 @@
     /* box-sizing:border-box; */
     text-decoration: none;
     }
-    #tophead{
-     width: 100%;
-     height: 100px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     background-color: transparent; 
-/*      
-     border-radius: 10px; */
-     position: absolute;
-    color: black;
-    padding-bottom: 15px;
+    .navbar{
+      background: burlywood; 
+      font-family: calibri;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .navdiv{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
     
-    
-    /* ******************************************************* */
-    #navbar{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    position: absolute;
-    top: 10px;
-    color: yellowgreen;
-    font-size: 25px;
-    background-color:transparent;
-    
-    
-    /* margin-left: 10px; */
-    margin-top: 1px;
-    
-    
+    .logo a{
+      font-size: 35px;
+      font-weight: 600;
+      color:black;
     }
-    #navbar img{
-    
-    width: 10px;
-    height: 50vh;
-    
-    
+    li{
+      list-style: none;
+      display: inline-block;
     }
     
+    li a{
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 25px;
     
-    #navbar nav ul{
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    padding: 70px;
-    list-style: none;
-    gap:20px;
-    color: aliceblue;
+    }
+    .navbar div a:hover{
+      color: rgb(241, 21, 21);
+    }
+    
+    .navbar div ul li a:hover{
+        color: red;
+    }
+    .navbar div nav ul button a:hover{
+      color: maroon;
+    }
+    .menu-icon{
+      padding-left: 30%;
+    }
+    .menu-icon{
+      display: none;
+    }
+    .menu-checkbox{
+      display: none;
+    }
+    /* navbar ends here***************** */
+    #home{
+      width: 100%;
+      height: 100vh;
+      background-image: url(pexels-thorsten-technoman-109353-338504.jpg);
+      background-size: cover;
+      display: flex;
+      align-items: center; 
+    }
+    #home div{
+      width: 50%;
+      padding-left: 35%;
+      font-size:30px;
+      color:yellow;
+     
+    }
+    #home div h1 span{
+      color:yellow;
+    }
+    #home div h1{
+      color:yellow;
+    }
+    div button{
+      width: 50%;
+      height: 30px;
+      color: black;
+      background-color:#ffcc00;
+    
     }
     /* **************************************************** */
     
