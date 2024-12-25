@@ -322,12 +322,88 @@ footer {
   background-color: #222;
   font-size: 14px;
 }
+/* ************************************************************************ */
 
-/* Responsive Design */
-/* @media (max-width: 450px) {
-  
+
+
+ /* Responsive Design  */
+ @media (max-width: 480px) {
+  .navdiv nav ul{
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+    
+    }
+.menu-icon {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+ }
+.menu-checkbox:checked~ nav ul{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.464);
+} 
+.menu-checkbox{
+    display: none;
+}
+#home div h1{
+   font-size: 10px; 
+}
+#home div p{
+    font-size: 10px; 
+
+}
+#home{
+  width: 100%;
+}
+#home div button{
+  width: 100%;
+  height: 35px;
+  color: #fff;
+  margin-bottom: 30%;
+}
+/* **************************************************** */
+#about .aboutdiv div h1{
+
+  margin-top: 0%;
+  font-size: 50px;
+}
+#about{
+  height: 185vh;
+  width: 100%;
+ 
+}
+#text  h1{
+  height: 200vh;
+ color: black;
+ margin-top: 5%;
+ font-size: 30px;
+ gap:30px;
+}
+#text p{
+  margin: 10%;
+}
+#text{
+  height: 200vh;
+  width: 100%;
+}
+#text .textdiv div img{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   }
-  .footer-container {
+  
+
+  
+  /* .footer-container {
     flex-direction: column;
     align-items: center;
   }
@@ -339,5 +415,5 @@ footer {
 
   .footer-bottom {
     font-size: 12px;
-  } */
+  } */ 
 

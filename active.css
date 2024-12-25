@@ -75,13 +75,13 @@
     #home div h1{
       color:yellow;
     }
-    div button{
+    /* div button{
       width: 50%;
       height: 30px;
       color: black;
       background-color:#ffcc00;
     
-    }
+    } */
     /* **************************************************** */
     
 #eva{
@@ -119,78 +119,104 @@ letter-spacing: 1px;
    
 }
 /* *************************************************** */
+
 footer {
-  background-color: #2d2d2d;
+  background-color: #333;
   color: #fff;
   padding: 40px 0;
-  font-family: Arial, sans-serif;
 }
+
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .footer-section {
-  width: 23%;
-  margin-bottom: 20px;
+  flex: 1;
+  min-width: 250px;
 }
 
 .footer-section h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffcc00;
 }
 
-.footer-section p {
+.footer-section p, .footer-section ul {
   font-size: 14px;
-  line-height: 1.6;
+  color: #ccc;
 }
 
 .footer-section ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
 }
 
 .footer-section ul li {
-  margin: 5px 0;
+  margin-bottom: 8px;
 }
 
 .footer-section ul li a {
-  color: #fff;
   text-decoration: none;
-  font-size: 14px;
-  transition: color 0.3s;
+  color: #ccc;
+  transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-  color: #f4a261;
+  color: #ffcc00;
 }
 
-/* Social Media Styling */
-.footer-section .social-media ul {
-  display: flex;
-  gap: 15px;
+.footer-section form input {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
 }
 
-.footer-section .social-media ul li a {
-  color: #fff;
-  font-size: 16px;
-  transition: color 0.3s;
+.footer-section form button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.footer-section .social-media ul li a:hover {
-  color: #f4a261;
+.footer-section form button:hover {
+  background-color: #e6b800;
 }
 
-/* Footer Bottom Section */
+ Footer Bottom Section 
 .footer-bottom {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #222;
   font-size: 14px;
 }
+
+/* Responsive Design */
+/* @media (max-width: 450px) {
+  
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  } */
 
