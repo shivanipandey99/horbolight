@@ -379,6 +379,7 @@ footer {
   width: 100%;
  
 }
+/* ************************************ */
 #text h1{
    padding-top: 80%;  
   font-size: 45px;
@@ -404,25 +405,22 @@ footer {
 #text .textdiv div{
   margin-bottom: 30%;
 }
+/* ************************************************ */
 #active h1{
   font-size: 40px;
   font-family: serif;
-  margin-top: 30%;
+   padding-bottom: 10%; 
 }
 #active{
-  height: 600px;
+ 
+  height: 540vh;
 }
-#active{
-  width: 100%;
-  height: 300vh;
+#active .active1 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
-.active1 div{
-  margin-top: 70px;
-  display: grid;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
   /* ************************************** */
   
 
@@ -430,7 +428,7 @@ footer {
    .footer-container {
     flex-direction: column;
     align-items: center;
-  
+   }
 
   .footer-section{
     text-align: center;
@@ -441,5 +439,5 @@ footer {
     font-size: 12px;
   
    }
-   }
+   
   }
