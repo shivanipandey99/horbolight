@@ -385,6 +385,7 @@ margin-top: 20px;
 }
 .btn4{
   width: 35%;
+  height: 10%;
   margin-top: 30%;
 }
 #one9 .one10 .v3{
@@ -393,6 +394,7 @@ margin-top: 20px;
   }
   .btn5{
     width: 35%;
+    height: 10%;
     margin-top: 30%;
   }
   #one9 .one10 .v4{
@@ -401,6 +403,7 @@ margin-top: 20px;
     }
     .btn6{
       width: 35%;
+      height: 10%;
       margin-top: 30%;
     }
     #one9 .one10 .v5{
@@ -409,6 +412,7 @@ margin-top: 20px;
       }
       .btn7{
         width: 35%;
+        height: 10%;
         margin-top: 30%;
       }
       #one9 .one10 .v6{
@@ -417,6 +421,7 @@ margin-top: 20px;
         }
         .btn8{
           width: 35%;
+          height: 10%;
           margin-top: 30%;
         }
         #one9 .one10 .v7{
@@ -425,6 +430,7 @@ margin-top: 20px;
           }
           .btn9{
             width: 35%;
+            height: 10%;
             margin-top: 30%;
           }
                      
@@ -439,7 +445,11 @@ margin-top: 20px;
       margin-bottom: 30px;
     }
   
-    .footer-bottom {
+     .footer-bottom {
+     
       font-size: 12px;
+    }
+    .footer-section button{
+      width: 35%;
     }
   }
