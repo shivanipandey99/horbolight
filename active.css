@@ -247,8 +247,15 @@ footer {
 #home div button{
   width: 100%;
   height: 35px;
-  color: #fff;
+  color: #f80808;
   margin-bottom: 30%;
+  font-family: cursive;
+  
+}
+#home div  p{
+  font-family: cursive;
+  font-size: 20px;
+  
 }
 /* ********************************** */
   .footer-container {
@@ -264,4 +271,4 @@ footer {
   .footer-bottom {
     font-size: 12px;
   } 
-
+ }
