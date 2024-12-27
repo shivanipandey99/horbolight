@@ -1,85 +1,86 @@
 *{
-    margin: 0px;
-        padding: 0px;
-        box-sizing:border-box;
-        text-decoration: none;
-    }.navbar{
-      background: burlywood; 
-      font-family: calibri;
-      padding-right: 15px;
-      padding-left: 15px;
-    }
-    .navdiv{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    
-    .logo a{
-      font-size: 35px;
-      font-weight: 600;
-      color:black;
-    }
-    li{
-      list-style: none;
-      display: inline-block;
-    }
-    
-    li a{
-      color: black;
-      font-size: 18px;
-      font-weight: bold;
-      margin-right: 25px;
-    
-    }
-    .navbar div a:hover{
-      color: rgb(241, 21, 21);
-    }
-    
-    .navbar div ul li a:hover{
-        color: red;
-    }
-    .navbar div nav ul button a:hover{
-      color: maroon;
-    }
-    .menu-icon{
-      padding-left: 30%;
-    }
-    .menu-icon{
-      display: none;
-    }
-    .menu-checkbox{
-      display: none;
-    }
-    /* navbar ends here***************** */
-    #home{
-      width: 100%;
-      height: 100vh;
-      background-image: url(pexels-sujasen-16178910.jpg);
-      background-size: cover;
-      display: flex;
-      align-items: center; 
-    }
-    #home div{
-      width: 50%;
-      padding-left: 35%;
-      font-size:30px;
-      color:yellow;
-     
-    }
-    #home div h1 span{
-      color:yellow;
-    }
-    #home div h1{
-      color:yellow;
-    }
-    div button{
-      width: 50%;
-      height: 30px;
-      color: black;
-      background-color:#ffcc00;
-    
-    }
+  margin: 0px;
+      padding: 0px;
+      box-sizing:border-box;
+      text-decoration: none;
+  }
+  .navbar{
+    background: burlywood; 
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:black;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  
+  li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+  
+  }
+  .navbar div a:hover{
+    color: rgb(241, 21, 21);
+  }
+  
+  .navbar div ul li a:hover{
+      color: red;
+  }
+  .navbar div nav ul button a:hover{
+    color: maroon;
+  }
+  .menu-icon{
+    padding-left: 30%;
+  }
+  .menu-icon{
+    display: none;
+  }
+  .menu-checkbox{
+    display: none;
+  }
+  /* navbar ends here***************** */
+  #home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pexels-sujasen-16178910.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+  }
+  #home div{
+    width: 50%;
+    padding-left: 35%;
+    font-size:30px;
+    color:yellow; 
+   
+  }
+  #home div h1 span{
+    color:yellow;
+  }
+  #home div h1{
+    color:yellow;
+  }
+   div button{
+    width: 30%;
+    height: 30px;
+    color: blue;
+    background-color:rgb(144, 125, 93);
+  
+  } 
      /* ************************************************** */
      #mono{
       width: 100%;
@@ -216,10 +217,75 @@ footer {
   font-size: 14px;
 }
 
- Responsive Design 
+ /* Responsive Design  */
  @media (max-width: 450px) {
-  
+  .navdiv nav ul{
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+    
+    }
+.menu-icon {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+ }
+.menu-checkbox:checked~ nav ul{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.464);
+} 
+.menu-checkbox{
+    display: none;
+}
+#home div h1{
+   font-size: 10px; 
+}
+#home div p{
+    font-size: 10px; 
+
+}
+#home{
+  width: 100%;
+}
+#home div button{
+  width: 100%;
+  height: 35px;
+  color: #fff;
+  margin-bottom: 30%;
+}
+  #mono{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 60%;
   }
+   #mono .mono1{
+    width: 100%;
+    height: 20vh;
+
+ 
+  }
+  #mono .mono1 iframe{
+    width: 80%;
+    margin-top: 10%;
+    
+  }
+  #mono .mono2{
+    width: 80%;
+    height: 90vh;
+    margin-top: 90%;
+   
+  }
+
+  
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -232,5 +298,9 @@ footer {
 
   .footer-bottom {
     font-size: 12px;
+  }
+  .footer-section button{
+width: 40%;
+  }
   } 
 
