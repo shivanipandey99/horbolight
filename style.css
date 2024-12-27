@@ -178,7 +178,7 @@ div button{
     display: grid;
     grid-template-columns:auto auto auto ;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
    
 } 
@@ -373,16 +373,17 @@ footer {
 #about .aboutdiv div h1{
 
  /* margin-bottom: 40%; */
- padding-top: 73%;
+ /* padding-top: 73%; */
  font-size: 50px;
 }
 #about{
- height: 100vh;
+ height: auto;
  width: 100%;
 
 }
 .aboutdiv video{
-  margin-bottom: 60%;
+  /* margin-bottom: 60%; */
+  margin-left: 4rem;
 }
 /* ********************************************* */
 #text h1{
@@ -427,15 +428,15 @@ height: 250vh;
   margin-top: 1%;
  font-size: 30px;
  font-size: 37px;
- font-family: cursive;
-  padding-bottom: 10%; 
+ font-family: serif;
+  padding-bottom: 20%; 
  padding-top: 2%; 
 
 }
 #active{
 
- height: 540vh;
- height: 320vh;
+ height: auto;
+ height: auto;
  
 }
 #active .active1 {
