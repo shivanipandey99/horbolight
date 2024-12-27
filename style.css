@@ -383,7 +383,7 @@ footer {
 
 /* ********************************************* */
 #text h1{
-  padding-top: 50%;  
+  padding-top: 30%;  
  margin-top: 0%;
   padding-bottom: 10px;
  font-size: 45px;
@@ -421,9 +421,9 @@ height: 250vh;
 }
 /* ************************************************ */
 #active h1{
-  margin-top: 5%;
+  margin-top: 1%;
  font-size: 40px;
- font-size: 30px;
+ font-size: 37px;
  font-family: serif;
   padding-bottom: 10%; 
  padding-top: 2%; 
@@ -441,6 +441,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 10px;
+}
+.active1 div{
+
+  margin-top: 1%;
+ 
 }
 
 /* **************************************************** */
